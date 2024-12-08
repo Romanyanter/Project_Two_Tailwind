@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .link-active{
+    @apply text-slate-900 hover:text-slate-500 transition-all duration-300;
+  }
+}
